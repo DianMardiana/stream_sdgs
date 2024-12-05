@@ -124,15 +124,15 @@ with tab2:
         unsafe_allow_html=True,
     )
 
-    pH = st.number_input("pH", value=0.0)
-    Hardness = st.number_input("Hardness", value=0.0)
-    Solids = st.number_input("Solids", value=0.0)
-    Chloramines = st.number_input("Chloramines", value=0.0)
-    Sulfate = st.number_input("Sulfate", value=0.0)
-    Conductivity = st.number_input("Conductivity", value=0.0)
-    Organic_carbon = st.number_input("Organic Carbon", value=0.0)
-    Trihalomethanes = st.number_input("Trihalomethanes", value=0.0)
-    Turbidity = st.number_input("Turbidity", value=0.0)
+    pH = st.number_input("💧 pH", value=0.0)
+    Hardness = st.number_input("🔗 Hardness", value=0.0)
+    Solids = st.number_input("⚖️ Solids", value=0.0)
+    Chloramines = st.number_input("🧪 Chloramines", value=0.0)
+    Sulfate = st.number_input("💨 Sulfate", value=0.0)
+    Conductivity = st.number_input("📈 Conductivity", value=0.0)
+    Organic_carbon = st.number_input("🌿 Organic Carbon", value=0.0)
+    Trihalomethanes = st.number_input("🛢️ Trihalomethanes", value=0.0)
+    Turbidity = st.number_input("🌫️ Turbidity", value=0.0)
 
     if st.button("Prediksi"):
         input_data = (
